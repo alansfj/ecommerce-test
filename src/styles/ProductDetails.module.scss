@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.imgContainer {
+  & > img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    margin-top: 1rem;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.priceBefore {
+  color: red;
+
+  & > span {
+    text-decoration: line-through;
+  }
+}
+
+.descriptionContainer {
+  padding: 1rem;
+}

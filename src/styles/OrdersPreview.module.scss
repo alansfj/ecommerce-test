@@ -1,0 +1,15 @@
+.orderContainer {
+  margin: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.order {
+  padding: 1rem;
+  background-color: white;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
